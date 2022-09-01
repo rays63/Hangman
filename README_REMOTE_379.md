@@ -1,2 +1,0 @@
-# HangMan terminal using python 
-![image](https://user-images.githubusercontent.com/57377566/187870579-93a1003c-4276-43e0-8c37-9bfd99b0789e.png)
