@@ -38,6 +38,7 @@ def play():
         
         if lives == 0:
             print('Sorry, You died the word was ', word)
+            print(hang[lives])
         else:
             print('Congratulations!! You guessed the word ', word)
         
