@@ -7,6 +7,8 @@ def get_words(Word):
     word = random.choice(Word)
     return word.upper()
 
+
+
 def play():
     play = True
     while play == True:
@@ -24,6 +26,11 @@ def play():
             print("Current Word : ", " ".join(word_list))
 
             user_input = input('Guess a letter : ').upper()
+
+            while len(user_input) != 1:
+                print('Enter a valid letter !')
+                user_input = input('Guess a letter : ').upper()
+            
             if user_input in alphabet - used_letters:
                 used_letters.add(user_input)
                 if user_input in word_letter:
